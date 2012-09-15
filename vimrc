@@ -89,3 +89,9 @@ nnoremap <C-l> <C-w>l
 
 " Autoread when file is changed from outside
 set autoread
+
+" Create a nice window-title
+set title
+set titlestring+=%f\                 " file name
+set titlestring+=%h%m%r%w            " flags
+set titlestring+=\ -\ %{v:progname}  " program name
