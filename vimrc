@@ -99,3 +99,5 @@ set titlestring+=\ -\ %{v:progname}  " program name
 
 " =========== Colors and Fonts ===========
 colorscheme zenburn
+
+set guioptions=aci
