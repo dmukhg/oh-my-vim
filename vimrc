@@ -77,3 +77,10 @@ nnoremap <leader>v V`]
 
 "   Open vimrc on the fly
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr> 
+
+
+" Window-Splitting Customizations
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
