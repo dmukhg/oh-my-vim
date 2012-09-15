@@ -107,3 +107,7 @@ set guioptions=aci
 
 " Scroll 7 lines before reaching extremities
 set so=7
+
+" Tabularize shortcuts
+vmap t: :Tabularize /:<cr>
+vmap t= :Tabularize /=<cr>
