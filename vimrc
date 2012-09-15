@@ -65,6 +65,7 @@ nnoremap k gk
 " Save on losing focus
 au FocusLost * :wa
 
+
 " User-customizations
 "   Sort css properties
 nnoremap <leader>S ?{<CR>jV/^\s*\}<CR>:sort<CR>:noh<CR>
@@ -80,6 +81,7 @@ nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 
 
 " Window-Splitting Customizations
+" Make movement through windows painless
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
