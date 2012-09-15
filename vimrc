@@ -97,7 +97,7 @@ set titlestring+=%h%m%r%w            " flags
 set titlestring+=\ -\ %{v:progname}  " program name
 
 
-" =========== Colors and Fonts ===========
+" Colors 
 colorscheme zenburn
 
 set guioptions=aci
