@@ -95,3 +95,7 @@ set title
 set titlestring+=%f\                 " file name
 set titlestring+=%h%m%r%w            " flags
 set titlestring+=\ -\ %{v:progname}  " program name
+
+
+" =========== Colors and Fonts ===========
+colorscheme zenburn
