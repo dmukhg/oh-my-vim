@@ -71,3 +71,6 @@ nnoremap <leader>S ?{<CR>jV/^\s*\}<CR>:sort<CR>:noh<CR>
 
 "   Re-hardwrap paragraph of text
 nnoremap <leader>q gqip
+
+"   Select the text that was just pasted
+nnoremap <leader>v V`]
