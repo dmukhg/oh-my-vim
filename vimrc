@@ -101,3 +101,6 @@ set titlestring+=\ -\ %{v:progname}  " program name
 colorscheme zenburn
 
 set guioptions=aci
+
+" Scroll 7 lines before reaching extremities
+set so=7
