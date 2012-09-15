@@ -51,7 +51,7 @@ vnoremap <tab> %
 " Fix long line handling
 set wrap
 set textwidth=79
-set formatoptions=qrn1
+set formatoptions=aqrn1
 set colorcolumn=85
 
 " Invisible characters handling
@@ -68,3 +68,6 @@ au FocusLost * :wa
 " User-customizations
 "   Sort css properties
 nnoremap <leader>S ?{<CR>jV/^\s*\}<CR>:sort<CR>:noh<CR>
+
+"   Re-hardwrap paragraph of text
+nnoremap <leader>q gqip
