@@ -64,3 +64,7 @@ nnoremap k gk
 
 " Save on losing focus
 au FocusLost * :wa
+
+" User-customizations
+"   Sort css properties
+nnoremap <leader>S ?{<CR>jV/^\s*\}<CR>:sort<CR>:noh<CR>
