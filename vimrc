@@ -74,3 +74,6 @@ nnoremap <leader>q gqip
 
 "   Select the text that was just pasted
 nnoremap <leader>v V`]
+
+"   Open vimrc on the fly
+nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr> 
