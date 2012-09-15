@@ -96,6 +96,9 @@ set titlestring+=%f\                 " file name
 set titlestring+=%h%m%r%w            " flags
 set titlestring+=\ -\ %{v:progname}  " program name
 
+" No stupid backup or swap files
+set nobackup
+set noswapfile
 
 " Colors 
 colorscheme zenburn
