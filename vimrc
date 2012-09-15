@@ -61,3 +61,6 @@ set listchars=tab:▸\ ,eol:¬
 " Set screen-line movements as the defaults
 nnoremap j gj
 nnoremap k gk
+
+" Save on losing focus
+au FocusLost * :wa
