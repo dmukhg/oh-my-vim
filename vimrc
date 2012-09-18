@@ -67,6 +67,10 @@ if has("gui_running")
   " Terminal can't show the chars anyways
   set list
   set listchars=tab:▸\ ,eol:¬
+
+  " Set font
+  set guifont=Monaco\ 9 
+  set linespace=2
 endif
 
 " Set screen-line movements as the defaults
