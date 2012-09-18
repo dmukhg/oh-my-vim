@@ -60,8 +60,11 @@ if version >= 730
 endif
 
 " Invisible characters handling
-set list
-set listchars=tab:▸\ ,eol:¬
+if has("gui_running")
+  " Terminal can't show the chars anyways
+  set list
+  set listchars=tab:▸\ ,eol:¬
+endif
 
 " Set screen-line movements as the defaults
 nnoremap j gj
