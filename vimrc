@@ -29,8 +29,11 @@ set ttyfast
 set ruler
 set backspace=indent,eol,start
 set laststatus=2
-set relativenumber  " 7.3: show lineno as how far from current line
-set undofile        " Creates a sessionfree undofile 
+
+if version >= 730
+  set relativenumber  " 7.3: show lineno as how far from current line
+  set undofile        " Creates a sessionfree undofile 
+endif
 
 " Set <leader> to the friendlier ',' button
 let mapleader = ','
@@ -51,8 +54,10 @@ vnoremap <tab> %
 " Fix long line handling
 set wrap
 set textwidth=79
-set formatoptions=aqrn1
-set colorcolumn=85
+set formatoptions=crqn
+if version >= 730
+  set colorcolumn=85
+endif
 
 " Invisible characters handling
 set list
