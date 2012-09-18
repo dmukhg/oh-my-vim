@@ -8,6 +8,9 @@ set nocompatible
 " Security vulnerabilities
 set modelines=0
 
+" Switch on syntax highlighting 
+syntax on
+
 " Tab settings: tab-width is 2 and expand <tab> to spaces
 set tabstop=2
 set shiftwidth=2
