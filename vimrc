@@ -126,3 +126,6 @@ set so=7
 " Tabularize shortcuts
 vmap t: :Tabularize /:<cr>
 vmap t= :Tabularize /=<cr>
+
+" Set filetype to css for less files
+autocmd BufRead,BufNewFile *.less set filetype=css
