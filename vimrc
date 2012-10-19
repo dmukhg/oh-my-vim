@@ -69,7 +69,7 @@ if has("gui_running")
   set listchars=tab:▸\ ,eol:¬
 
   " Set font
-  set guifont=Monaco\ 10
+  set guifont=Monaco
   set linespace=2
 endif
 
@@ -78,7 +78,7 @@ nnoremap j gj
 nnoremap k gk
 
 " Save on losing focus
-au FocusLost * :wa
+"au FocusLost * :wa
 
 
 " User-customizations
@@ -129,3 +129,6 @@ vmap t= :Tabularize /=<cr>
 
 " Set filetype to css for less files
 autocmd BufRead,BufNewFile *.less set filetype=css
+
+" Set filetype to cuda for cuh files
+autocmd BufRead,BufNewFile *.cuh set filetype=cuda
