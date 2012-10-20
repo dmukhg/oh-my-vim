@@ -58,7 +58,7 @@ vnoremap <tab> %
 set wrap
 set textwidth=79
 set formatoptions=crqn
-if version >= 730
+if version >= 720
   set colorcolumn=85
 endif
 
@@ -116,7 +116,16 @@ set nobackup
 set noswapfile
 
 " Colors 
-colorscheme zenburn
+if has("gui_running")
+  " Use Solarized! dark for GUI
+  set background=dark
+  colorscheme solarized
+else
+  " Zenburn is more fun for the terminal
+  colorscheme zenburn
+endif
+
+
 
 set guioptions=aci
 
