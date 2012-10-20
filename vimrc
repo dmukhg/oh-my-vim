@@ -69,7 +69,7 @@ if has("gui_running")
   set listchars=tab:▸\ ,eol:¬
 
   " Set font
-  set guifont=Monaco\ 10
+  set guifont=Monaco\ 9 
   set linespace=2
 endif
 
@@ -117,9 +117,8 @@ set noswapfile
 
 " Colors 
 if has("gui_running")
-  " Use Solarized! dark for GUI
-  set background=dark
-  colorscheme solarized
+  " Use Steve Losh's modified molokai for GUI instances
+  colorscheme molokai 
 else
   " Zenburn is more fun for the terminal
   colorscheme zenburn
