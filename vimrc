@@ -50,7 +50,8 @@ set gdefault
 set incsearch
 set showmatch
 set hlsearch
-nnoremap <leader><space> :noh<cr> "Clear out search 
+" Clear out search 
+nnoremap <leader><space> :noh<cr> 
 nnoremap <tab> %
 vnoremap <tab> %
 
