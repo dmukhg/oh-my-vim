@@ -95,6 +95,9 @@ nnoremap <leader>v V`]
 "   Open vimrc on the fly
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr> 
 
+"   Yank all the text in the file
+nnoremap <leader>s <Esc>ggvG$y
+
 
 " Window-Splitting Customizations
 " Make movement through windows painless
