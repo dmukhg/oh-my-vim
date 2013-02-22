@@ -70,7 +70,7 @@ if has("gui_running")
   set listchars=tab:▸\ ,eol:¬
 
   " Set font
-  set guifont=Monaco
+  set guifont=Monaco\ 11
   set linespace=2
 endif
 
