@@ -125,7 +125,7 @@ set noswapfile
 " Colors 
 if has("gui_running")
   " Use Steve Losh's modified molokai for GUI instances
-  colorscheme molokai 
+  colorscheme molokai
 else
   " Zenburn is more fun for the terminal
   colorscheme zenburn

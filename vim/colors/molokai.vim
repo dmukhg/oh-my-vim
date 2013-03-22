@@ -30,7 +30,7 @@ hi MatchParen      guifg=#ffec00 guibg=#232728 gui=bold
 " Syntax {{{
 
 hi Boolean         guifg=#AE81FF
-hi Comment         guifg=#64756B
+hi Comment         guifg=#5c7176
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81FF
 hi String          guifg=#E6DB74
@@ -244,4 +244,3 @@ if &t_Co > 255
    hi LineNr          ctermfg=250 ctermbg=233
    hi NonText         ctermfg=240 ctermbg=233
 end " }}}
-
