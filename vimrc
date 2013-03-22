@@ -8,6 +8,9 @@ set nocompatible
 " Security vulnerabilities
 set modelines=0
 
+" Set foldmethod
+set foldmethod=syntax
+
 " Switch on syntax highlighting 
 syntax on
 
