@@ -147,3 +147,11 @@ autocmd BufRead,BufNewFile *.less set filetype=css
 
 " Set filetype to cuda for cuh files
 autocmd BufRead,BufNewFile *.cuh set filetype=cuda
+
+" Use C-u in normal mode to capitalize current word
+nmap <C-u> viwUw
+
+" Use C-u in insert mode to capitalize current word
+imap <C-u> <esc>viwUwi
+
+" LearnVIMScript the hard way additions
