@@ -98,6 +98,9 @@ nnoremap <leader>v V`]
 "   Open vimrc on the fly
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr> 
 
+"   Load vimrc on the fly
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
 "   Yank all the text in the file
 nnoremap <leader>s <Esc>ggvG$y
 
@@ -155,3 +158,4 @@ nnoremap <C-u> viwUw
 inoremap <C-u> <esc>viwUwi
 
 " LearnVIMScript the hard way additions
+
