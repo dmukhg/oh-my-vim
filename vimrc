@@ -157,5 +157,11 @@ nnoremap <C-u> viwUw
 " Use C-u in insert mode to capitalize current word
 inoremap <C-u> <esc>viwUwi
 
+" Use <leader>" to surround visual selection in double-quotes
+vnoremap <leader>" <esc>`<bi"<esc>`>ea"
+
+" Use <leader>' to surround visual selection in single-quotes
+vnoremap <leader>' <esc>`<bi'<esc>`>ea'
+
 " LearnVIMScript the hard way additions
 
