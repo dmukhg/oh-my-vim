@@ -66,17 +66,6 @@ if version >= 720
   set colorcolumn=85
 endif
 
-" Invisible characters handling
-if has("gui_running")
-  " Terminal can't show the chars anyways
-  set list
-  set listchars=tab:▸\ ,eol:¬
-
-  " Set font
-  set guifont=Lucida\ Console\ 9
-  set linespace=2
-endif
-
 " Set screen-line movements as the defaults
 nnoremap j gj
 nnoremap k gk
@@ -164,4 +153,18 @@ vnoremap <leader>" <esc>`<bi"<esc>`>ea"
 vnoremap <leader>' <esc>`<bi'<esc>`>ea'
 
 " LearnVIMScript the hard way additions
+
+" Invisible characters handling
+if has("gui_running")
+  " Terminal can't show the chars anyways
+  set list
+  set listchars=tab:▸\ ,eol:¬
+
+  " Set font
+  set guifont=SourceCodePro
+  set linespace=2
+endif
+
+" Ignore files in NERD Tree
+let NERDTreeIgnore=['\.pyc$']
 
