@@ -162,3 +162,12 @@ endif
 " Ignore files in NERD Tree
 let NERDTreeIgnore=['\.pyc$']
 
+" Add a keybinding to restart gunicorn
+map <F12> :!kill -HUP `cat /tmp/gunicorn.pid`<CR><CR>
+
+" Copy paste in style!
+" Copy and paste
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <ESC>"+pa
