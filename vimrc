@@ -140,12 +140,6 @@ autocmd BufRead,BufNewFile *.less set filetype=css
 " Set filetype to cuda for cuh files
 autocmd BufRead,BufNewFile *.cuh set filetype=cuda
 
-" Use C-u in normal mode to capitalize current word
-nnoremap <C-u> viwUw
-
-" Use C-u in insert mode to capitalize current word
-inoremap <C-u> <esc>viwUwi
-
 " Use <leader>" to surround visual selection in double-quotes
 vnoremap <leader>" <esc>`<bi"<esc>`>ea"
 
