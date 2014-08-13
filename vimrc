@@ -155,8 +155,8 @@ if has("gui_running")
   set listchars=tab:▸\ ,eol:¬
 
   " Set font
-  set guifont=SourceCodePro
-  set linespace=2
+  set guifont=Monaco\ 10
+  set linespace=3
 endif
 
 " Ignore files in NERD Tree
